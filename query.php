@@ -46,7 +46,7 @@ function registrasi_akun_member($nama_lengkap_member,$email_member,$password_mem
 				$mail->Host = "smtp.gmail.com"; // sets GMAIL as the SMTP server 
 				$mail->Port = 587; // set the SMTP port for the GMAIL server 
 				$mail->Username = "rohman.telesandi12@gmail.com"; // GMAIL username 
-				$mail->Password = "rohmantelkom"; // GMAIL password
+				$mail->Password = "inipasswordnya"; // GMAIL password
 
 				$mail->SetFrom('sewamenyewajogja@gmail.com', 'Admin Sewa Menyewa Jogja');
 
